@@ -61,6 +61,7 @@ func (e *Experiment) SetABExperiment() {
 
 func main() {
 
+	fmt.Println("Strategy")
 	e := Experiment{
 		country_code: "BR",
 	}
